@@ -1,0 +1,44 @@
+body {
+	min-width: 100vw;
+    min-height: 100vh;
+    background-color: $darker-orange;
+    z-index: 0;
+    &:before {
+        content: '';
+        display: block;
+        width: 120vw;
+        height: 70vh;
+        transform: rotate(-10deg);
+        position: absolute;
+        top: -20vh;
+        right: -10vw;
+        background-color: $lighter-orange;
+    }
+}
+
+
+.App {
+  width: 90vw;
+  min-height: 90vh;
+  z-index: 5;
+  position: absolute;
+  top: 5vh;
+  right: 0;
+  left: 0;
+  margin: 0 auto;
+  &-header {
+    height: 180px;
+    padding: 20px;
+    color: white;
+    text-align: center;
+  }
+
+  &-intro {
+    font-size: large;
+  }
+
+  &-logo {
+    height: 180px;
+  }
+}
+
