@@ -1,23 +1,22 @@
 body {
-	min-width: 100vw;
+	  min-width: 100vw;
     min-height: 100vh;
-    background-color: $darker-orange;
+    background-color: $lighter-orange;
     z-index: 0;
     &:before {
         content: '';
         display: block;
         width: 120vw;
         height: 70vh;
-        transform: rotate(-10deg);
+        transform: rotate(-4deg);
         position: absolute;
         top: -20vh;
         right: -10vw;
-        background-color: $lighter-orange;
+        background-color: $darker-orange;
     }
 }
 
-
-.App {
+.app {
   width: 90vw;
   min-height: 90vh;
   z-index: 5;
@@ -26,19 +25,8 @@ body {
   right: 0;
   left: 0;
   margin: 0 auto;
-  &-header {
-    height: 180px;
-    padding: 20px;
-    color: white;
-    text-align: center;
-  }
-
-  &-intro {
-    font-size: large;
-  }
-
-  &-logo {
-    height: 180px;
-  }
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
 }
 

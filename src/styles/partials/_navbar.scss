@@ -1,0 +1,36 @@
+.navbar {
+  width: 100%;
+  font-family: $main-sans;
+  color: $white;
+  font-size: 14px;
+  ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style-type: none;
+    li {
+      // order: 3;
+      // &.logo {
+      //   order: 1;
+      //   width: 100%;
+      // }
+      a:hover {
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+// @media screen and (min-width: 640px) {
+//   li {
+//       order: 1;
+//   }
+// }
+
+.logo-img {
+  height: 80px;
+  display: block;
+  margin: 0 auto;
+}

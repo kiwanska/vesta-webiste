@@ -1,0 +1,25 @@
+@mixin half-width {
+    width: 50%;
+    max-width: 75vh;
+    min-width: 55vh;
+    padding: 5%;
+    box-sizing: border-box;
+}
+
+.main {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    &-img {
+        @include half-width;
+    }
+    &-tagline {
+        @include half-width;
+        font-size: 3em;
+        font-family: $main-sans;
+        font-weight: 200;
+        color: $white;
+    }
+}

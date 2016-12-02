@@ -1,0 +1,12 @@
+.footer {
+    width: 100%;
+    font-family: $main-serif;
+    color: $grey;
+    font-size: 10px;
+    &-right {
+        float: right;
+    }
+    &-left {
+        float: left;
+    }
+}
