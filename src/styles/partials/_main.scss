@@ -1,7 +1,5 @@
 @mixin half-width {
     width: 50%;
-    max-width: 75vh;
-    min-width: 55vh;
     padding: 5%;
     box-sizing: border-box;
 }
@@ -14,10 +12,12 @@
     flex-wrap: wrap;
     &-img {
         @include half-width;
+        max-width: 75vh;
+        min-width: 300px;
     }
     &-tagline {
         @include half-width;
-        font-size: 3em;
+        font-size: 3rem;
         font-family: $main-sans;
         font-weight: 200;
         color: $white;
