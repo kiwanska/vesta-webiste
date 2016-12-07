@@ -1,0 +1,20 @@
+.support {
+    color: $grey;
+    .title {
+        font-size: 2em;
+        font-weight: 300;
+        padding-right: 15%;
+    }
+    p {
+        padding-left: 15%;
+        font-family: $main-serif;
+        font-size: .9em;
+        font-weight: 300;
+        line-height: 1.6em;
+        margin: 2em 0;
+
+        &:first-of-type {
+            font-size: 1.2em;
+        }
+    }
+}

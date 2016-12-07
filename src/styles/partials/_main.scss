@@ -23,3 +23,18 @@
         color: $white;
     }
 }
+
+.subbpage {
+    width: 100vw;
+    min-height: 84vh;
+    position: absolute;
+    left: -5vw;
+    top: 85px;
+    background-color: $white;
+    padding: 5% 9%;
+    box-sizing: border-box;
+}
+
+a {
+    color: $darker-orange;
+}

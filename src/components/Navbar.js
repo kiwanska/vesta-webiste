@@ -3,9 +3,7 @@ import logo from '../images/logo.svg';
 import { Link } from 'react-router';
 
 
-class Menu extends Component {
-
-  // const { route } = this.props;
+class Navbar extends Component {
 
   render() {
     return (
@@ -24,4 +22,4 @@ class Menu extends Component {
   }
 }
 
-export default Menu;
+export default Navbar;

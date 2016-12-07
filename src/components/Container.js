@@ -11,8 +11,8 @@ function Container({ children }) {
         {children}
         <Footer />
       </div>
+    
     )
-
 }
 
 export default Container;

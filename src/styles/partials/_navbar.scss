@@ -13,11 +13,30 @@
     li {
       width: 150px;
       text-align: center;
+      position: relative;
+      font-weight: 300;
       a {
         text-decoration: none;
         color: $white;
+        opacity: .9;
         &.active {
-          font-weight: 600;
+          font-weight: 400;
+          opacity: 1;
+          &:after {
+            content: '';
+            width: 0;
+            height: 0;
+            display: block;
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 30px;
+            margin: 0 auto;
+            z-index: 15;
+            border-left: 30px solid transparent;
+            border-right: 30px solid transparent;
+            border-bottom: 30px solid $white;
+          }
         }
         &:hover {
           cursor: pointer;
@@ -34,7 +53,8 @@
 // }
 
 .logo-img {
-  height: 80px;
+  height: 70px;
   display: block;
   margin: 0 auto;
+  opacity: .8;
 }
