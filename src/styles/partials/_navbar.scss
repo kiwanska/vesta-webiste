@@ -6,18 +6,22 @@
   ul {
     width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
     list-style-type: none;
     li {
-      // order: 3;
-      // &.logo {
-      //   order: 1;
-      //   width: 100%;
-      // }
-      a:hover {
-        cursor: pointer;
+      width: 150px;
+      text-align: center;
+      a {
+        text-decoration: none;
+        color: $white;
+        &.active {
+          font-weight: 600;
+        }
+        &:hover {
+          cursor: pointer;
+        }
       }
     }
   }
